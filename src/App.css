@@ -1,0 +1,25 @@
+body{
+  background-color: lightsteelblue;
+}
+
+.Enter{
+  display: inline;
+  background-color: lightgreen;
+  color: black;
+  padding: 5px;
+  margin: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  cursor: pointer;
+}
+
+.delete{
+  display: inline;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  border-width: 1px;
+  border-style: solid;
+}
