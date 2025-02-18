@@ -26,16 +26,34 @@ const App = () => {
   }
   return (
     <div>
-      <center>
+      <screenLeft>
         <div className="card">
-          <div className="card-body">
-            <h2 className="card-title">Will you be my permanent roommate?</h2>
-              <input type="text" name="task" placeholder="Pls type yes...." value={task} onChange={changeHandler} /> &nbsp;&nbsp;
+          <div className="card-Body">
+            <h5 className="card-title">Enter your full name</h5>
+              <input type="text" name="task" placeholder="Your full name" value={task} onChange={changeHandler} /> &nbsp;&nbsp;
+              <h5 className="card-title">Enter your mobile number</h5>
+              <input type="text" name="task" placeholder="Please enter" value={task} onChange={changeHandler} /> &nbsp;&nbsp;
+              <h5 className="card-title">Enter your mail id</h5>
+              <input type="text" name="task" placeholder="Please enter" value={task} onChange={changeHandler} /> &nbsp;&nbsp;
+              <h5 className="card-title">Currently working hospital name</h5>
+              <input type="text" name="task" placeholder="Please enter" value={task} onChange={changeHandler} /> &nbsp;&nbsp;
+              <h5 className="card-title">Your location</h5>
+              <input type="text" name="task" placeholder="Please enter" value={task} onChange={changeHandler} /> &nbsp;&nbsp;
+              <h5 className="card-title">College name</h5>
+              <input type="text" name="task" placeholder="Please enter" value={task} onChange={changeHandler} /> &nbsp;&nbsp;
+              <h5 className="card-title">Yeas of exp</h5>
+              <input type="text" name="task" placeholder="Please enter" value={task} onChange={changeHandler} /> &nbsp;&nbsp;
+              <h5 className="card-title">Specailazation</h5>
+              <input type="text" name="task" placeholder="Please enter" value={task} onChange={changeHandler} /> &nbsp;&nbsp;
+              <h5 className="card-title">Least charges for consultatiosn per head</h5>
+              <input type="text" name="task" placeholder="Please enter" value={task} onChange={changeHandler} /> &nbsp;&nbsp;
+              <h5 className="card-title">Add your cv or exp letter & good pofile picture</h5>
+              <input type="text" name="task" placeholder="Please enter" value={task} onChange={changeHandler} /> &nbsp;&nbsp;
               <div onClick={submitHandler} className="Enter" > Enter </div>
             <TodoList todoList ={todos} deleteHandler={deleteHandler}/>
           </div>
         </div> 
-      </center>
+      </screenLeft>
     </div>
   )
 }
